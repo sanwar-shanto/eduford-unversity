@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+
+                <i class="fa-solid fa-x" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1 class="common-h">About Us</h1>
+    </section>
+
+    <!-----------------about us content------------------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p class="common-p">Our Campus: Exploring the Beauty and Diversity of Eduford University. It could showcase the university's physical campus, including its architecture, natural features, and cultural amenities. It could also highlight the different student organizations and clubs that make up the campus community.</p>
+
+                <a class="hero-btn" href="">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="meeting.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!---------------footer----------------->
+        <section class="footer">
+            <h4 class="common-h">About Us</h4>
+            <p class="common-p" id="footerp">Our institution has a long-standing tradition of excellence in education, research, and innovation. Our faculty members are renowned experts in their fields, and our students are driven, creative, and diverse. At Eduford University, we are committed to fostering a vibrant and inclusive community that prepares our students to be leaders in their fields and to make a positive impact on the world. Come join us and be a part of something great!</p>
+
+            <div class="icons">
+                <a href=""><i style="color: #1877F2;" class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i style="color: #25D366;" class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i style="color: #E4405F;" class="fa-brands fa-instagram"></i></a>
+                <a href=""><i style="color: #15a5ee;" class="fa-solid fa-envelope"></i></a>
+                <a href=""><i style="color: green;" class="fa-solid fa-phone"></i></a>
+            </div>
+            <p class="common-p">Developed by Sanwar Shanto</p> 
+        </section>
+   
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showmenu(){
+            navlinks.style.right = "0"
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>

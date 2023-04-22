@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+
+                <i class="fa-solid fa-x" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1 class="common-h">Our Certificate & Online Programs For 2024</h1>
+    </section>
+
+    <!-- -----------------blog page---------------------- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2024</h2>
+                <p class="common-p">Our University offer certification programs that are designed to provide students with specialized skills and knowledge in a particular area of study. These certifications are often shorter than degree programs and can be completed in a matter of months. Some examples of certifications offered by universities include project management, human resources, cybersecurity, and data analytics. 
+                    <br><br>
+                    We typically offer a wide range of academic programs that lead to undergraduate and graduate degrees. Undergraduate programs typically last four years and result in a Bachelor's degree, while graduate programs can take anywhere from one to several years to complete and result in a Master's or Doctoral degree. Some examples of undergraduate programs include business, engineering, nursing, and education, while graduate programs may include law, medicine, psychology, and computer science.
+                    <br><br>
+                    In addition to traditional degree programs, We may also offer non-degree programs that provide students with training and education in a particular field, without conferring a degree. These programs may include professional development courses, continuing education courses, and executive education programs. Eduford also offer online programs and courses, which allow students to complete coursework from anywhere in the world.
+                    <br><br>
+                    Eduford University also offer interdisciplinary programs that combine coursework from multiple departments or schools. These programs are designed to provide students with a broad-based education that can be applied to a variety of careers. Some examples of interdisciplinary programs include environmental studies, global studies, and neuroscience.
+                    <br><br>
+                    Finally, We offer joint degree programs that allow students to earn two degrees in different fields simultaneously. For example, a student might earn a law degree and an MBA at the same time. These programs are typically longer and more intensive than traditional degree programs, but can provide students with a unique set of skills and qualifications.</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name" autocomplete="">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn">POST COMMNET</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Undergraduate</span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <span>Graduate</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>International Student</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Transfer Admissions</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Online Course</span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <span>Continuing Education</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Financial Aid</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!---------------footer----------------->
+        <section class="footer">
+            <h4 class="common-h">About Us</h4>
+            <p class="common-p" id="footerp">Our institution has a long-standing tradition of excellence in education, research, and innovation. Our faculty members are renowned experts in their fields, and our students are driven, creative, and diverse. At Eduford University, we are committed to fostering a vibrant and inclusive community that prepares our students to be leaders in their fields and to make a positive impact on the world. Come join us and be a part of something great!</p>
+
+            <div class="icons">
+                <a href=""><i style="color: #1877F2;" class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i style="color: #25D366;" class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i style="color: #E4405F;" class="fa-brands fa-instagram"></i></a>
+                <a href=""><i style="color: #15a5ee;" class="fa-solid fa-envelope"></i></a>
+                <a href=""><i style="color: green;" class="fa-solid fa-phone"></i></a>
+            </div>
+            <p class="common-p">Developed by Sanwar Shanto</p> 
+        </section>
+   
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showmenu(){
+            navlinks.style.right = "0"
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
