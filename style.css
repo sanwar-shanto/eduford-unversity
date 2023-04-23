@@ -93,20 +93,20 @@ nav img{
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    border: 2px solid #2F4F4F;
+    background:#2F4F4F;
+    border: 2px solid #ffffff;
     color: white;
     padding: 12px 34px;
     font-size: 13;
-    background: transparent;
     position: relative;
     cursor: pointer;
 }
 
 .hero-btn:hover{
     border:2px solid;
-    background:#2F4F4F;
+    background: #E67E22;
     transition: 1s;
-    color:white;
+    color:black;
     border-radius: 20px;
     
 }
